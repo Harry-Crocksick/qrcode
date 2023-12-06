@@ -12,9 +12,13 @@
 }
 
 body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
 	width: 100%;
 	min-height: 100vh;
-	margin: 0;
 	padding: 4rem;
 	display: grid;
 	place-content: center;
@@ -42,6 +46,7 @@ figcaption {
 }
 
 figcaption>h3 {
+	color: var(--dark-blue);
 	font-weight: 700;
 }
 
